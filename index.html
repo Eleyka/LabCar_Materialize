@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LabCar Karina Materialize</title>
+  <link rel="stylesheet" href="assets/icomoon/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <header>
+    <!--.....................MENU..........................-->
+    <nav>
+      <div class="nav-wrapper">
+        <img class="padding-logo" src="assets/images/logoForma.png" alt="logo-forma">
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="#">Viaja</a>
+          </li>
+          <li>
+            <a href="#">Conduce</a>
+          </li>
+          <li>
+            <a href="#modal1" class="waves-effect waves-light  modal-trigger">Iniciar Seción</a>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li>
+            <a href="#">Viaja</a>
+          </li>
+          <li>
+            <a href="#">Conduce</a>
+          </li>
+          <li>
+            <a href="#modal1" class="waves-effect waves-light  modal-trigger">Iniciar Seción</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--.....................FIN DE MENU..........................-->
+    <!--..................................1ra Sección..............................................................-->
+    <section id="hero" class="valign-wrapper ">
+      <div class="row ">
+        <!--Para móvil-->
+
+        <div class="col s12 hide-on-med-and-up">
+          <div class="bg-color padding-s1 ">
+            <h2 class="title">Comienza a Viajar
+              <br>con
+              <img class="logo-white" src="assets/images/logoBlanco.png" alt="logo-blanco">
+            </h2>
+
+            <p>
+              <a class="btn">Descarga el app</a>
+            </p>
+          </div>
+        </div>
+        <!--Para Desktop-->
+        <div class="bg-color hide-on-med-and-down show-on-medium padding-s1">
+          <h2 class="title">Disfruta del viaje
+            <p>Eres Dueño de tu tiempo</p>
+          </h2>
+          <p class="subTitle">Viaja con
+            <img class="logo-white" src="assets/images/logoBlanco.png" alt="logo-blanco">
+          </p>
+          <p>
+            <a class="btn bold-font waves-effect waves-light  modal-trigger" href="#modalRegistrar">REGÍSTRATE</a>
+          </p>
+
+          <div class="separation ">
+            <p class="size2 subTitle center">O bien</p>
+          </div>
+          <p>
+            <a class="btn bold-font waves-effect waves-light  modal-trigger" href="#modalConductor">Conviertete en un conductor</a>
+          </p>
+        </div>
+
+      </div>
+      <!--....................................... Modal de Iniciar Seción.............................. -->
+      <div id="modal1" class="modal">
+        <div class="modal-content center">
+          <img class="rostro" src="assets/images/rostro.jpg" alt="rostro">
+          <form class="formModal">
+            <div class="form-group">
+              <input class="placeholder-color " type="text" placeholder="Username">
+            </div>
+            <div class="form-group">
+              <input class="placeholder-color " type="password" placeholder="Password">
+            </div>
+            <div class="modal-footer center ">
+              <button type="button" class="btn btn-color ">LOGING</button>
+            </div>
+            <p>Forgot password?
+              <span class="click-color">Click Here</span>
+            </p>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+
+      </div>
+
+      <!--....................................... Fin del Modal de Iniciar Seción ...............................-->
+
+      <!--....................................... Modal de Registrece ...............................-->
+      <div id="modalRegistrar" class="modal">
+        <div class="modal-content2 center">
+          <form class="formModal2">
+            <div class="form-group ">
+              <button type="button" class="btn btn-color2 text-center size">Ya tienes una cuenta nueva?</button>
+            </div>
+            <div class="form-group ">
+              <p class="text-center">O CREA UNA CONTRASEÑA NUEVA</p>
+            </div>
+            <div class="form-group col-sm-6 padding-na">
+              <input class="placeholder-color input-reg size " type="text" placeholder="Nombre">
+            </div>
+            <div class="form-group col-sm-6 padding-na">
+              <input class="placeholder-color input-reg size  " type="text" placeholder="Apellido">
+            </div>
+            <div class="form-group">
+              <input class="placeholder-color input-reg size" type="text" placeholder="Correro Electrónico ejemplo@correo.mx">
+            </div>
+            <div class="form-group">
+              <input class="placeholder-color input-reg size" type="text" placeholder="Teléfono">
+            </div>
+            <div class="form-group">
+              <input class="placeholder-color input-reg size" type="password" placeholder="Contraseña">
+            </div>
+            <div class="form-group">
+              <input class="placeholder-color input-reg size" type="text" placeholder="Ciudad">
+            </div>
+            <div class="form-group">
+              <input class="placeholder-color input-reg size" type="text" placeholder="(Opcional) Código de invitación">
+            </div>
+            <div class="form-group ">
+              <button type="button" class="btn btn-color3 size margin-m2">Como te enteraste de nosotros?
+                <span class="icon-chevron-down"></span>
+              </button>
+            </div>
+            <div class="form-group ">
+              <button type="button" class="btn btn-color4 size">ENVIAR</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+
+      </div>
+      <!--....................................... Fin del Modal de registrece ...............................-->
+      <!--..................Modal 3: Y modal de Convierte en conductor....................................-->
+      <div id="modalConductor" class="modal">
+        <div class="modal-content2 center">
+          <form class="formModal2">
+            <p class="style-text">¿Tienes vehículo de 4 puertas?</p>
+            <div class="form-group">
+              <select name="option1" class="size">
+                <option>Sí</option>
+                <option>No</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <p class="style-text">Marca</p>
+              <select name="option2" class="size">
+                <option selected value="0"> Elige la marca del vehículo</option>
+                <option>Toyota</option>
+                <option>Lamborghini</option>
+                <option>Ferrari</option>
+                <option>BMW</option>
+                <option>Mercedes-Benz</option>
+                <option>Ford</option>
+                <option>Chevrolet</option>
+                <option>Honda</option>
+                <option>Volkswagen</option>
+              </select>
+              <p class="style-text3">¿No ves tu vehículo en la lista envia un correo electrónico a?
+                <br>
+                <a>sociosmdv@uber.com</a>
+              </p>
+
+            </div>
+            <div class="form-group">
+              <p class="style-text">Modelo</p>
+              <select name="option3" class="size">
+                <option>Modelo 1A</option>
+                <option>Modelo 2B</option>
+                <option>Modelo 3C</option>
+                <option>Modelo 4D</option>
+                <option>Modelo 5E</option>
+
+              </select>
+            </div>
+            <div class="form-group">
+              <p class="style-text">Año</p>
+              <select name="option4" class="size">
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+
+              </select>
+            </div>
+            <div class="form-group">
+              <p class="style-text">Número de matricula</p>
+              <input class="placeholder-color input-reg size" type="text" placeholder="Número de matricula">
+              <p class="style-text2">La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+            </div>
+            <div class="form-group ">
+              <button type="button" class="btn btn-color4 size">ENVIAR</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+
+      </div>
+      <!--................. Fin delModal 3: Y modal de Convierte en conductor....................................-->
+
+    </section>
+    <!--..................................Fin 1ra Sección..............................................................-->
+    <!--..................................2da Sección..............................................................-->
+    <section id="sec-2" class=" bg-color">
+       
+      </section>
+    <!--..................................Fin 2da Sección..............................................................-->
+    <!--..................................3ra Sección..............................................................-->
+    <!--..................................Fin 3ra Sección..............................................................-->
+    <!--..................................4ta Sección..............................................................-->
+    <!--..................................Fin 4ta Sección..............................................................-->
+    <!--..................................Footer..............................................................-->
+    <!--..................................Fin Footer..............................................................-->
+  </header>
+  <footer></footer>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>
